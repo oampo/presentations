@@ -1,0 +1,8 @@
+url_pattern: /{category}/{slug}/{page}/index.html
+jinja2_extensions:
+    - filters.FilterLoader
+media: /media
+url: http://www.spectaclelabs.org
+title: Spectacle Labs
+author: Joe Turner
+author_email: joe@spectaclelabs.org
