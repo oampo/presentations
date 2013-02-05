@@ -1,0 +1,125 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+/* === Global variables ===
+ * ======================== */
+/* Colors */
+/* Fonts */
+/* Borders */
+/* === Generic Styles ===
+ * ====================== */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Dosis, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 90px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+}
+/* Bottom margins */
+p {
+  margin-top: 0;
+  margin-bottom: 0em;
+}
+/* Images */
+img.left-float {
+  margin: 0 10px 10px 0;
+}
+img.right-float {
+  margin: 0 0 10px 10px;
+}
+img.behind {
+  position: absolute;
+  left: 50%;
+  margin-left: -320px;
+  z-index: -1;
+}
+pre {
+  font-size: 56.25%;
+  text-align: left;
+  margin-left: 50px;
+  font-family: Dosis, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+code {
+  font-family: Dosis, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+/* Slides */
+section {
+  height: 100%;
+  min-height: 100%;
+  display: table;
+  width: 100%;
+}
+section > div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+}
+section > div > div {
+  height: 100%;
+}
+/* Utility classes */
+.red {
+  color: #ff7f7f;
+}
+.blue {
+  color: #7f7fff;
+}
+.black {
+  color: #000000;
+}
+.white {
+  color: #ffffff;
+}
+.background-red {
+  background-color: #ff7f7f;
+}
+.background-blue {
+  background-color: #7f7fff;
+}
+.kw {
+  font-family: KnewaveRegular, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.left-float {
+  float: left;
+}
+.right-float {
+  float: right;
+}
+.big {
+  font-size: 150%;
+}
+.bigger {
+  font-size: 225%;
+}
+.small {
+  font-size: 75%;
+}
+.smaller {
+  font-size: 56.25%;
+}
