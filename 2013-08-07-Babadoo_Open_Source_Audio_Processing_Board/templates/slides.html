@@ -1,0 +1,11 @@
+{% extends "default.html" %}
+
+{% block content %}
+{% for subpage in pagination.page_items %}
+<section>
+    <div {% if subpage.classes %}class="{{ subpage.classes }}"{% endif %}>
+        {{ subpage.content }}
+    </div>
+</section>
+{% endfor %}
+{% endblock %}

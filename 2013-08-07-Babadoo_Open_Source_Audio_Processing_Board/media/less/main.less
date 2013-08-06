@@ -1,0 +1,159 @@
+@import 'grid.less';
+
+/* === Global variables ===
+ * ======================== */
+
+/* Colors */
+@red: #FF7F7F;
+@light-red: #FFDFDF;
+@blue: #7F7FFF;
+@light-blue: #DFFFFF;
+@black: #000000;
+@light-grey: #DFDFDF;
+@white: #FFFFFF;
+
+/* Fonts */
+
+@body-font: Dosis, "Helvetica Neue", Arial, Helvetica, sans-serif;
+@heading-font: KnewaveRegular, "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+/* Borders */
+
+@light-border: 1px solid @light-grey;
+@dashed-border: 1px dashed @light-grey;
+
+/* === Generic Styles ===
+ * ====================== */
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: @body-font;
+    font-size: 90px;
+    background-color: @black;
+    color: @white;
+    font-weight: bold;
+}
+
+/* Bottom margins */
+p {
+    margin-top: 0;
+    margin-bottom: 0em;
+}
+
+/* Images */
+img.left-float {
+    margin: 0 10px 10px 0;
+}
+
+img.right-float {
+    margin: 0 0 10px 10px;
+}
+
+img.behind {
+    position: absolute;
+    left: 50%;
+    margin-left: -320px;
+    z-index: -1
+}
+
+pre {
+    font-size: 56.25%;
+    text-align: left;
+    margin-left: 50px;
+    font-family: @body-font;
+}
+
+code {
+    font-family: @body-font;
+}
+
+
+/* Slides */
+section {
+    height: 100%;
+    min-height: 100%;
+    display: table;
+    width: 100%;
+}
+
+section > div {
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center; 
+    height: 100%;
+}
+
+section > div > div {
+    height: 100%;
+}
+
+/* Utility classes */
+.red {
+    color: @red;
+}
+
+.blue {
+    color: @blue;
+}
+
+.black {
+    color: @black;
+}
+
+.white {
+    color: @white;
+}
+
+.background-red {
+    background-color: @red;
+}
+
+.background-blue {
+    background-color: @blue;
+}
+
+.kw {
+    font-family: @heading-font;
+    font-weight: normal;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
+
+.big {
+    font-size: 150%;
+}
+
+.bigger {
+    font-size: 225%;
+}
+
+.small {
+    font-size: 75%;
+}
+
+.smaller {
+    font-size: 56.25%;
+}
+
